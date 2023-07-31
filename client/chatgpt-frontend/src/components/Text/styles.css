@@ -1,0 +1,26 @@
+.Text {
+	font: var(--font-normal);
+	font-family: var(--font-primary);
+}
+
+.Text--medium {
+    font-size: var(--size-medium);
+    line-height:  var(--line-medium);
+    font-weight: 700;
+}
+
+.Text--small {
+    font-size: var(--size-small);
+    line-height:  var(--line-small);
+    font-weight: 700;
+}
+
+.Text--tiny {
+    font-size: var(--size-small);
+    line-height:  var(--line-small);
+    font-weight: 500;
+}
+
+.Text--bold:not(.Text--heading) {
+	font-weight: 700;
+}

@@ -1,0 +1,29 @@
+.Card {
+    gap: var(--gap-tiny);
+    padding: 32px;
+}
+.Card:nth-child(even){
+    background-color: var(--color-bg-light);
+}
+
+.Card-avatar{
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.Card-avatar > svg{
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-quinary);
+
+}
+
+.Card-actionUp-active{
+    color: rgb(60, 60, 253);
+}
+
+.Card-actionDown-active{
+    color: rgb(250, 76, 76);
+}

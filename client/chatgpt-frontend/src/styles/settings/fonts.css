@@ -1,0 +1,12 @@
+@import url('https://cdn.openai.com/common/fonts/soehne/soehne-buch.woff2');
+@import url('https://cdn.openai.com/common/fonts/soehne/soehne-kraftig.woff2');
+@import url('https://cdn.openai.com/common/fonts/soehne/soehne-halbfett.woff2');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+  --font-primary: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --font-icon: 'Material Icons';
+ 
+  --font-base: 500 var(--size-tiny)/var(--line-tiny) var(--font-primary); 
+}

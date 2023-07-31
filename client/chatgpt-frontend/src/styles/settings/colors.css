@@ -1,0 +1,22 @@
+:root {
+	--color-negative: #1a1b1e;
+	--color-zero: rgb(255, 255, 255);
+	
+	--color-primary: rgb(237, 237, 242);
+	--color-secondary:rgb(197, 197, 211);
+	--color-tertiary: #313240;
+	--color-quaternary: #3e3f4f;
+	--color-quinary: hsl(155, 77%, 43%);
+	--color-senary: rgb(217, 217, 227);
+	
+	-color-font-dark:var(--color-secondary);
+	--color-font-medium:var(--color-primary);
+	--color-font-light: var(--color-zero);
+
+	--color-bg-dark: var(--color-negative);
+	--color-bg-medium: var(--color-tertiary);
+	--color-bg-light: var(--color-quaternary);
+
+	--color-border: var(--color-senary);
+	--color-hover: #8d8da01a;
+}

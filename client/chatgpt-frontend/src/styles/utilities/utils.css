@@ -1,0 +1,79 @@
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.hover-indicator:hover {
+    background: var(--color-);
+    position: relative;
+}
+
+.center {
+  text-align: center;
+}
+
+/************* BORDER *************/
+.border-none {
+  border: 0;
+}
+
+.br-none {
+  border-radius: 0;
+}
+
+/************* BACKGROUND *************/
+
+.bg-none {
+  background: transparent;
+}
+
+/************* SIZE *************/
+
+.screen-height {
+  height: 100vh;
+}
+
+.screen-width {
+  width: 100vh;
+}
+
+/************* FLEX *************/
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.all-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap-tiny {
+  gap: var(--gap-tiny);
+}
+
+.gap-small {
+  gap: var(--gap-small);
+}

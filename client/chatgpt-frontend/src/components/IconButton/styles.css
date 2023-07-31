@@ -1,0 +1,25 @@
+.IconButton {
+	min-width: 32px;
+	width: 32px;
+	height: 32px;
+
+	color: var(--color-zero);
+
+	padding: var(--padding-1);
+	
+	border: none;
+	border-radius: var(--radius);
+}
+
+.IconButton--transparent {
+	background-color: transparent;	
+}
+
+.IconButton--green {
+	background-color: var(--color-quinary);	
+}
+
+.IconButton:disabled {
+	background-color: transparent;
+	cursor: default;
+}

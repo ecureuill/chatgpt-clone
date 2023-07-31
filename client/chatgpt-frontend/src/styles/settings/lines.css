@@ -1,0 +1,6 @@
+:root{
+	--line-big: clamp(5rem, 2.887vw + 4.253rem, 6.563rem);
+	--line-large: clamp(1.875rem, -0.231vw + 2.06rem, 2rem);
+	--line-medium: clamp(2.6rem, 0.393vw + 2.498rem, 2.813rem);
+	--line-small: clamp(1.594rem, -0.012vw + 1.603rem, 1.6rem);
+} 

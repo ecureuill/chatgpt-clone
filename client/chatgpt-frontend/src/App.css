@@ -1,0 +1,63 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-bg-medium);
+}
+
+.App-header {
+    height: 38px;
+    
+    background-color: var(--color-bg-medium);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.App-header svg {
+    width: 32px;
+    fill:var(--color-quinary);
+}
+
+
+.App-header .IconButton>span {
+    color: var(--color-senary);
+}
+
+.App-chatlog {
+    width: 100vw;
+    height: 100vh;
+}
+
+.App-chatbox {
+    padding: var(--padding-2) var(--padding-3);
+    
+    border-top: 1px solid var(--color-border);
+    background-color: var(--color-bg-medium);
+}
+
+.App-chatform {
+    height: 46px;
+    width: 100%;
+
+    padding: var(--padding-1);
+
+    border-radius: var(--radius);
+    background-color: var(--color-bg-light);
+}
+
+.App-chatinput {
+    width: 100%;
+    
+    color: var(--color-zero);
+
+    background-color: transparent;
+    border: 0px;
+    outline: 0pxsdfsd;
+}
+
+.App-dialog {
+    width: 380px;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: transparent;
+    border: 0px
+}

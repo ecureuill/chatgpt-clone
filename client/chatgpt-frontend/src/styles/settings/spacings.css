@@ -1,0 +1,12 @@
+:root {
+	--spacing: 4px;
+
+	--gap-flex: 0.875rem;
+	--gap-tiny: calc(2* var(--spacing));
+	
+	--padding-3: calc(3* var(--spacing));
+	--padding-2: calc(2* var(--spacing));
+	--padding-1: var(--spacing);
+	--radius: 6px;
+
+}
