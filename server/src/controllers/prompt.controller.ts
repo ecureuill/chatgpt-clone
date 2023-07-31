@@ -21,7 +21,7 @@ export default class PromptController {
 		} catch (error: any) {
 			return response.status(400).json({
 				sucess: false,
-				error: error.response ? error.response : "There was an issue on the server"
+				error: error.response ? error.response.data : "There was an issue on the server"
 			})
 		}
 	}
